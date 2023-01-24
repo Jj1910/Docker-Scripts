@@ -15,6 +15,6 @@ services:
     ports:
       - "80:80"
     volumes:
-      - "/path/to/data:/config"
+      - "./data:/config"
     restart: unless-stopped
     image: "lscr.io/linuxserver/freshrss:latest"
